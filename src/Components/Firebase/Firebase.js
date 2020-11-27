@@ -5,13 +5,13 @@ import "firebase/auth"
 import { Redirect } from "react-router-dom";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAR3ULqMeUMpu7BOtRJHDmBKHC2xkEix8U",
-    authDomain: "react-firebase-todo-74bcc.firebaseapp.com",
-    databaseURL: "https://react-firebase-todo-74bcc.firebaseio.com",
-    projectId: "react-firebase-todo-74bcc",
-    storageBucket: "react-firebase-todo-74bcc.appspot.com",
-    messagingSenderId: "605605672910",
-    appId: "1:605605672910:web:cff365599cdd70522b9d9f"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
 };
 
 firebase.initializeApp(firebaseConfig)
